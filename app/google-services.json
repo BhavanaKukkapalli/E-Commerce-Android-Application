@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "127740893430",
+    "firebase_url": "https://shoppingmall-bc5b9.firebaseio.com",
+    "project_id": "shoppingmall-bc5b9",
+    "storage_bucket": "shoppingmall-bc5b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127740893430:android:cda72e6aa62cdf0f",
+        "android_client_info": {
+          "package_name": "com.example.dell.firestoretry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127740893430-8gaogj9se0hmvkae23c6ru3h3giebaea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.firestoretry",
+            "certificate_hash": "b02201d9f39abaef1253ae36c9daad6f32c6e725"
+          }
+        },
+        {
+          "client_id": "127740893430-2tq1a55dnjl86q89rh9vmtoth1bjckbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Db5ilNPfoRcOg-4Eiq2qjPiSphHKKhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127740893430-2tq1a55dnjl86q89rh9vmtoth1bjckbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127740893430:android:5eb1daef2c689849",
+        "android_client_info": {
+          "package_name": "com.example.dell.git"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127740893430-531p400rokbt4hjgeok8t1ju3m6mlm1q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.git",
+            "certificate_hash": "b02201d9f39abaef1253ae36c9daad6f32c6e725"
+          }
+        },
+        {
+          "client_id": "127740893430-2tq1a55dnjl86q89rh9vmtoth1bjckbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Db5ilNPfoRcOg-4Eiq2qjPiSphHKKhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127740893430-2tq1a55dnjl86q89rh9vmtoth1bjckbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127740893430:android:2c07d9a442980e53",
+        "android_client_info": {
+          "package_name": "com.example.dell.headache"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127740893430-1b508nrgqka4s9h5c5cf4tvucemukhmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.headache",
+            "certificate_hash": "b02201d9f39abaef1253ae36c9daad6f32c6e725"
+          }
+        },
+        {
+          "client_id": "127740893430-2tq1a55dnjl86q89rh9vmtoth1bjckbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Db5ilNPfoRcOg-4Eiq2qjPiSphHKKhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127740893430-2tq1a55dnjl86q89rh9vmtoth1bjckbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127740893430:android:2c29415376dd7538",
+        "android_client_info": {
+          "package_name": "com.example.bhavana.shopping_mall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127740893430-u0spd5auip4f97h5dd8bhok4lmph0f5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bhavana.shopping_mall",
+            "certificate_hash": "99aeba244b7d967073f77842fad13cedaee4c864"
+          }
+        },
+        {
+          "client_id": "127740893430-2tq1a55dnjl86q89rh9vmtoth1bjckbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_Db5ilNPfoRcOg-4Eiq2qjPiSphHKKhA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127740893430-2tq1a55dnjl86q89rh9vmtoth1bjckbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

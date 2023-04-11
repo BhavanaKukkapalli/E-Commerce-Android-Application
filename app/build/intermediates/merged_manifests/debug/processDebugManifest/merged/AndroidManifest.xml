@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bhavana.shopping_mall"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- dk -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+
+    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.bhavana.shopping_mall.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.bhavana.shopping_mall.Signup" />
+        <!-- <activity android:name=".GridViewBaseAdapter" /> -->
+        <activity android:name="com.example.bhavana.shopping_mall.Home_Grid" />
+        <activity android:name="com.example.bhavana.shopping_mall.funzone" />
+
+        <!-- <activity android:name=".Main2Activity" /> -->
+        <activity android:name="com.example.bhavana.shopping_mall.Registration" />
+        <activity android:name="com.example.bhavana.shopping_mall.Boxoffice" />
+        <activity android:name="com.example.bhavana.shopping_mall.Admin" />
+        <activity android:name="com.example.bhavana.shopping_mall.success" />
+        <activity android:name="com.example.bhavana.shopping_mall.categories" />
+        <activity android:name="com.example.bhavana.shopping_mall.sub" />
+        <activity android:name="com.example.bhavana.shopping_mall.FunZoneact" />
+        <activity android:name="com.example.bhavana.shopping_mall.FoodCourt" />
+        <activity android:name="com.example.bhavana.shopping_mall.Spa" />
+        <activity android:name="com.example.bhavana.shopping_mall.arcadegamess" />
+        <activity android:name="com.example.bhavana.shopping_mall.VRgames" />
+        <activity android:name="com.example.bhavana.shopping_mall.otpverification" />
+        <activity android:name="com.example.bhavana.shopping_mall.VerifyPhoneActivity" />
+        <!-- <activity android:name=".ProfileActivity"></activity> -->
+        <activity android:name="com.example.bhavana.shopping_mall.StatsIntent" />
+        <!-- <activity android:name=".elesctronicsexpandable" /> -->
+        <activity android:name="com.example.bhavana.shopping_mall.subelec" />
+        <!-- <activity android:name=".redirect" /> -->
+        <activity android:name="com.example.bhavana.shopping_mall.home_categories" />
+        <activity android:name="com.example.bhavana.shopping_mall.subHome" />
+        <activity android:name="com.example.bhavana.shopping_mall.RedirectHome" />
+        <!-- <activity android:name=".categories_food" /> -->
+        <activity android:name="com.example.bhavana.shopping_mall.categories_food" />
+        <activity android:name="com.example.bhavana.shopping_mall.sub_food" />
+        <activity android:name="com.example.bhavana.shopping_mall.Desc" />
+        <activity android:name="com.example.bhavana.shopping_mall.adminspa" />
+        <activity android:name="com.example.bhavana.shopping_mall.success1" />
+        <activity android:name="com.example.bhavana.shopping_mall.redirectelec" />
+        <activity android:name="com.example.bhavana.shopping_mall.categories_elec" />
+        <activity android:name="com.example.bhavana.shopping_mall.redirect_Food" />
+        <activity android:name="com.example.bhavana.shopping_mall.categories_layout" />
+        <activity android:name="com.example.bhavana.shopping_mall.proceed_to_payment" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+
+        <activity android:name="com.example.bhavana.shopping_mall.asd" />
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.bhavana.shopping_mall.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+    </application>
+
+</manifest>

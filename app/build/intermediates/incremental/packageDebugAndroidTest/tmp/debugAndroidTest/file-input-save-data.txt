@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Mar 15 14:52:02 IST 2019
+0.baseType=DIRECTORY
+0.base=/Users/bhavana/Documents/Android projects/Shopping_mall/app/build/intermediates/transforms/dexMerger/androidTest/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1
